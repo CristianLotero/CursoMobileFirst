@@ -152,21 +152,11 @@ main {
     color: #757575;
 }
 
-
-.main-currency-table .currency-table--value-info {
-    margin-bottom: 15px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 2.3rem;
-    font-family: 'DM Sans';
-    color: var(--bitcoin-orange);
-}
-
 .main-tables-container {
     width: 90%;
     min-width: 230px;
     max-width: 300px;
-    /* height: 250px; */
+    height: auto;
     margin: 0 auto;
 }
 
@@ -250,7 +240,7 @@ main {
     background-image: url('../assets/icons/trending-down.svg')
 }
 
-.currency-table--value-info{
+.currency-table--value-info , .commision-table--value-info{
     margin: 0 auto;
     background-color: #FFE9D4;
     width: 190px;
@@ -258,7 +248,10 @@ main {
     border-radius: 10px;
     margin-top: 15px;
     padding: 8px;
+}
 
+.commision-table--value-info {
+    background-color: var(--soft-blue);
 }
 
 .currency-table--value-info p, .commision-table--value-info p{
@@ -273,7 +266,14 @@ main {
     color: var(--gray);
 }
 
-
+.main-currency-table .currency-table--value-info {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    font-family: 'DM Sans';
+    color: var(--bitcoin-orange);
+}
 
 
 .main-product-detail {
