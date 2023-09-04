@@ -1,4 +1,8 @@
-.product-cards--container {
+.main-tables-container {
+    max-width: none;
+}
+
+.product-cards--container, .main-tables-container {
     display: flex;
     flex-wrap: wrap;
     width: 930px;
@@ -9,3 +13,4 @@
     justify-content: center;
     
 }
+

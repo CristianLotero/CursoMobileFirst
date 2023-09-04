@@ -169,7 +169,7 @@ main {
 }
 
 
-.main-currency-table table{
+.main-currency-table table, .main-commission-table table {
     width: 100%;
     height: 100%;
 }
@@ -187,7 +187,7 @@ main {
     width: 70px;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
+    height: 200px;
     margin: 0 auto;
     font-family: "Inter", sans-serif;
 }
@@ -255,18 +255,15 @@ main {
 }
 
 .currency-table--value-info p, .commision-table--value-info p{
-    justify-self: center;
+    /* justify-self: center; */
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.5rem;
     color: var(--warm-black);
 }
 
-.commision-table--value-info p{
-    color: var(--gray);
-}
 
-.main-currency-table .currency-table--value-info {
+.currency-table--value-info, .commision-table--value-info {
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
@@ -538,3 +535,7 @@ footer .left ul {
     color: var(--just-white);
 }
 
+.right {
+    display: flex;
+    flex-direction: column;
+}
